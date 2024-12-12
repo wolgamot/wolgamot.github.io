@@ -6,10 +6,10 @@
         <body>
           <xsl:for-each select="about">
             <h1>
-              <xsl:for-each value-of="name"/>
+              <xsl:value-of select="name"/>
             </h1>
             <h2>Contact: </h2>
-            <xsl:for-each select="contact/platform"><xsl:for-each value-of="name"/>: <xsl:for-each value-of="user"/></xsl:for-each>
+            <xsl:for-each select="contact/platform"><xsl:value-of select="name"/>: <xsl:value-of select="user"/></xsl:for-each>
           </xsl:for-each>
         </body>
       </xsl:for-each>
