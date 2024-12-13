@@ -9,7 +9,9 @@
               <xsl:value-of select="name"/>
             </h1>
             <h2>Contact: </h2>
-            <xsl:for-each select="contact/platform"><xsl:value-of select="name"/>: <xsl:value-of select="user"/></xsl:for-each>
+            <xsl:for-each select="contact/platform">
+              <h3><xsl:value-of select="name"/>: <xsl:value-of select="user"/></h3>
+            </xsl:for-each>
           </xsl:for-each>
         </body>
       </xsl:for-each>

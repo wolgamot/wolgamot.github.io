@@ -2,25 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="data.xsl"?>
 <website>
   <about>
-    <name>
-      dbw
-    </name>
+    <name>dbw</name>
     <contact>
       <platform>
-        <name>
-          BlueSky
-        </name>
-        <user>
-          @dbw.kawaii.social
-        </user>
+        <name>BlueSky</name>
+        <user>@dbw.kawaii.social</user>
       </platform>
       <platform>
-        <name>
-          wolgamot
-        </name>
-        <user>
-          https://github.com/wolgamot
-        </user>
+        <name>github</name>
+        <user>https://github.com/wolgamot</user>
       </platform>
     </contact>
   </about>
